@@ -1,8 +1,8 @@
-{
-    "name": "kriosa/kriosa",
+
+   {
+    "name": "kriosa-ai/kriosa-php",
     "description": "com-Powered Web Application Middleware - Protect your apps from SQL injection, XSS, and 10+ attack vectors in 30 seconds",
     "type": "library",
-    "version": "1.0.0",
     "license": "MIT",
     "keywords": [
         "security",
@@ -10,7 +10,6 @@
         "waf",
         "sql-injection",
         "xss",
-        "command-injection",
         "protection",
         "ai-security",
         "web-security",
@@ -20,10 +19,10 @@
     ],
     "homepage": "https://kriosa.com",
     "support": {
-        "emcoml": "support@kriosa.com",
-        "issues": "https://github.com/kriosa/kriosa/issues",
-        "source": "https://github.com/kriosa/kriosa",
-        "docs": "https://docs.kriosa.com"
+        "email": "support@kriosa.com",
+        "issues": "https://github.com/kriosa-ai/kriosa-php/issues",
+        "source": "https://github.com/kriosa-ai/kriosa-php",
+        "docs": "https://kriosa.com/docs"
     },
     "authors": [
         {
@@ -42,7 +41,7 @@
         "phpunit/phpunit": "^9.0"
     },
     "autoload": {
-        "files": ["kriosa.php"]
+        "files": ["src/Kriosa.php"]
     },
     "autoload-dev": {
         "psr-4": {
@@ -51,7 +50,7 @@
     },
     "scripts": {
         "test": "phpunit",
-        "check": "php -l kriosa.php"
+        "check": "php -l src/Kriosa.php"
     },
     "minimum-stability": "stable",
     "prefer-stable": true
