@@ -3,7 +3,7 @@
 [![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-blue.svg)](https://packagist.org/packages/kriosa-ai/kriosa-php)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-3.0.0-green.svg)](https://github.com/kriosa-ai/kriosa-php)
-
+Kriosa is an intelligent security middleware for PHP applications that acts as a smart layer between users and your application, detecting, filtering, and logging malicious activities before they reach your core application.
 AI-powered Web Application Middleware built for  developers and businesses. One file. Zero dependencies. Instant protection.
 
 ## Features
@@ -13,7 +13,7 @@ AI-powered Web Application Middleware built for  developers and businesses. One 
 - 🌍 **Built for Africa** — Optimized for African web infrastructure and threat landscape
 - 🚀 **Framework Agnostic** — Works with Laravel, WordPress, Symfony, and vanilla PHP
 - ⚡ **High Performance** — Minimal overhead with 5ms average response time
-
+- 📊 **Explainable AI** — XAI dashboard shows exactly why a request was blocked
 - 📝 **Real-time Analytics** — Live threat scoring, confidence levels, and attack metrics
 
 ## Installation
