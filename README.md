@@ -68,12 +68,12 @@ $kriosa = new Kriosa('sk_your_api_key', [
 ## Get Your API Key
 
 1. Sign up at [kriosa.com](https://kriosa.com)
-2. Create a project
+2. Go to the API key section
 3. Copy your API key
 
 ## Documentation
 
-Full documentation at [kriosa.com/docs](https://kriosa.com/docs)
+Full documentation at [kriosa.com/docs](https://kriosa.com/documentation.php)
 
 ## Support
 
