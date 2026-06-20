@@ -1,0 +1,49 @@
+# Composer
+/vendor/
+composer.lock
+composer.phar
+
+# PHPUnit
+.phpunit.cache/
+/coverage/
+/logs/
+/.phpunit.result.cache
+
+# IDE
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Kriosa cache
+.kriosa_cache/
+kriosa_cache/
+
+# Logs
+*.log
+error_log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Test files
+/test-app/
+/wordpress-test/
+
+# Build
+/build/
+/dist/
+
+# Coverage
+coverage.xml
+.clover
