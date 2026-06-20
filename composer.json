@@ -1,7 +1,7 @@
 
    {
     "name": "kriosa-ai/kriosa-php",
-    "description": "com-Powered Web Application Middleware - Protect your apps from SQL injection, XSS, and 10+ attack vectors in 30 seconds",
+    "description": "AI-Powered Web Application Middleware - Protect your apps from SQL injection, XSS, and 10+ attack vectors in 30 seconds",
     "type": "library",
     "license": "MIT",
     "keywords": [
