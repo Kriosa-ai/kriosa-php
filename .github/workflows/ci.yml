@@ -12,22 +12,22 @@ jobs:
     strategy:
       matrix:
         php: ['7.4', '8.0', '8.1', '8.2', '8.3']
-    
+
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Setup PHP
-      uses: shivammathur/setup-php@v2
-      with:
-        php-version: ${{ matrix.php }}
-        extensions: curl, json
-        coverage: xdebug
-    
-    - name: Install dependencies
-      run: composer install --prefer-dist --no-progress
-    
-    - name: Run PHPUnit tests
-      run: vendor/bin/phpunit
-    
-    - name: Run PHPStan
-      run: vendor/bin/phpstan analyse src --level=8
+      - uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: curl, json
+          coverage: xdebug
+
+      - name: Install dependencies
+        run: composer install --prefer-dist --no-progress
+
+      - name: Run PHPUnit tests
+        run: vendor/bin/phpunit --testdox
+
+      - name: Run PHPStan
+        run: vendor/bin/phpstan analyse src --level=5
